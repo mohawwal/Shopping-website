@@ -1,0 +1,155 @@
+body{
+    color: rgb(234, 233, 233);
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    text-align: center;
+}
+.Topic{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.Topic:hover{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    opacity: 20%;
+}
+.Topic-a{
+    display: flex;
+    align-items: center;
+}
+.Topic-a >img{
+    height: 28px;
+    width: 28px;
+}
+.Topic-a >p{
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.Topic-c >img{
+    padding: 0px 4px;
+    width: 17px;
+}
+.Topic-b > p{
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+.whole-topic{
+    background-image: url("C:\react\jumpstart\public\Image\IMG_9875.JPG");
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+}
+.whole-topic:hover{
+    background-image: url("C:\react\jumpstart\public\Image\IMG_9876.JPG");
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+}
+.Head{
+    height: 400px;
+    padding-top: 90px;
+}
+.Head > p{
+    margin-top: 85px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.Head > button{
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 2px solid white;
+    color: white;
+}
+.conts-b > p{
+    color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+.conts-b > button{
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.conts-c{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.conts-e{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: black;
+}
+.conts-d{
+    display: flex;
+    justify-content: space-around;
+
+}
+.conts-da >img{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.conts-da >p{
+    color: black;
+}
+.abt{
+    margin-top: 70px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abt-a >img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+}
+.abt-a >p{
+    margin-top: 0px;
+}
+.line-a{
+    border: 1px solid white;
+    background-color: white;
+    margin: 0px 5px;
+}
+.abt-b,
+.text{
+    display: flex;
+    margin-left: 20px;
+}
+.abt-c{
+    display: flex;
+    flex-direction: column;
+}
+.abt-c >p{
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.link{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.link > a > img{
+    width: 30px;
+}
